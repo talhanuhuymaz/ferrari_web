@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Official Ferrari</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta charset="UTF-8">
+<meta name="description" content="Website of Ferrari">
+<meta name="keywords" content="Ferrari, Cars, Ferrari Purosangue, 812GTS, SF90 Spider, F8 Tributo  ">
+<meta name="author" content="Talha Nuh Uymaz">
+<style>
+    @font-face {
+        font-family:'FerrariRosso';
+        src: url(FerroRosso.ttf);
+    }
+    @font-face {
+        font-family: 'Colus';
+        src: url(Colus-Regular.ttf);
+    }
+
+   
+    body {
+        margin: 0;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 76%);
+        }
+        
+    
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        border-radius: 50px;
+    }
+    
+    ul.topnav li {
+        float: left;
+    }
+    
+    ul.topnav li a, .dropbtn {
+        display: block;
+        color:white;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Colus', sans-serif;
+        
+    }
+
+    ul.topnav li a:hover:not(.active), .dropdown:hover .dropbtn {
+        background-color:red;
+        color:yellow;
+    }
+    
+    ul.topnav li a.active {
+    background-color:#C02E0F;
+    color:white;
+    
+    }
+    
+    li.dropdown {
+        display: block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 20px;
+    }
+    
+    .dropdown-content a {
+        color: blue;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-family: 'Colus', sans-serif;
+    }
+    
+    .dropdown-content a:hover {
+    background-color:#E02003;
+    color:#D39B0E;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    @media screen and (max-width: 600px){
+    img {width:100%;float:none;margin-left:auto;margin-right:auto;}
+    iframe {width:100%;height:300px;margin-left:auto;margin-right:auto;}
+    video {width:100%;height:auto;margin-left:auto;margin-right:auto;}
+    ul.topnav {width:100%;}
+    ul.topnav li {float: none;}
+    ul.topnav li a {text-align:center;}
+    ul.topnav li.dropdown div.dropdown-content {width:100%;}
+    ul.topnav li.dropdown div.dropdown-content a {text-align:center;}
+}
+    div.container {
+    width: 100%;
+    border: 1px solid black;
+    font-weight: bold;
+    
+}
+    header, footer {
+    padding: 2px;
+    color:white;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 76%);
+    clear: left;
+    text-align: center;
+    font-family: 'FerrariRosso', sans-serif;
+}
+header img {
+  float: inherit;
+  width: 100px;
+  height: 100px;
+}
+header video{
+    border-radius: 5px;
+}
+article {
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    color: beige;
+}
+article h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+video {
+    max-width: 100%;
+    height: auto;
+}
+</style>
+
+</head>
+
+
+
+
+<body>
+<ul class="topnav">
+    <img style="height: 45px; width: 90px; float: right;" src="yelow.png" alt="logo">
+  <li><a class="active" href="default.html">Home</a></li>
+  <li><a href="about.html">About us</a></li>
+  <li class="dropdown">
+    <a href="cars.html" class="dropbtn">Cars &#9662;</a>
+    <div class="dropdown-content">
+      <a href="ferrariPuro.html">Ferrari Purosangue</a><br>
+      <a href="812GTS.html">812GTS</a><br>
+      <a href="296GTB.html">296GTB</a><br>
+      <a href="SF90SPIDER.html">SF90 Spider</a><br>
+      <a href="F8TRIBUTO.html">F8 Tributo</a><br>
+      <a href="ROMA.html">Ferrari Roma</a><br>
+    </div>
+  </li>
+  <li><a href="news.html"">News</a></li>
+  <li><a href="formula1.html">Formula 1</a></li>
+  <li><a href="store.html">Store</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+<div class="container">    
+<header>
+    <img src="logo.png" alt="logo" />
+</header>
+
+<article>
+    <h1>Scuderia Ferrari</h1>
+    <p style="color: black;">General</p>
+     <img src="f1.jpg" width="25%" style="float:right;margin:5px;border-radius: 10px;">
+  <p>Scuderia Ferrari are the most successful and oldest currently competing team in Formula One. They are based in Maranello, Italy.Founded in 1929, the team started making their own cars in 1947 after running Alfa Romeos until then. They were part of the inaugural World Championship in 1950.</p>
+    <p>Ferrari have won the drivers' title fifteen times, in 1952, 1953, 1956, 1958, 1961, 1964, 1975, 1977, 1979, 2000, 2001, 2002, 2003, 2004 and 2007. They won the Constructors' Championship (which was formed in 1958) sixteen times, in 1961, 1964, 1975, 1976, 1977, 1979, 1982, 1983, 1999, 2000, 2001, 2002, 2003, 2004, 2007 and 2008.</p>
+    <img src="f1-2.jpg" width="25%" alt="workers" style="float:left;margin:5px;border-radius: 10px;">
+      <p>The drivers that have won the Championship while driving for Ferrari are Alberto Ascari, Juan Manuel Fangio, Mike Hawthorn, Phil Hill, John Surtees, Niki Lauda, Jody Scheckter, Michael Schumacher and Kimi Räikkönen.</p>
+      <p>For the 2014 season, Ferrari launched the F14 T, the team's first turbocharged car since the F1/87/88C in 1988, which was driven by former World Drivers' Champions, Fernando Alonso and Kimi Räikkönen.For 2015, Alonso was replaced by four-time World Champion, Sebastian Vettel, while Räikkönen retained his seat.Räikkönen was replaced by Charles Leclerc for 2019. Then Vettel was replaced with Carlos Sainz, Jr. in 2021.</p>
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/0mR9Ev-Vt1M" frameborder="0" style="float:right;margin:10px"></iframe>
+      <p style="color:black">Before Formula 1 World Championships</p>
+       <p>When the dominant Alfa Romeo squad pulled their factory team out of competition in 1933, the manufacture allowed former driver Enzo Ferrari to run the team and develop the cars under the Scuderia Ferrari banner. Ferrari was successful during this time but with the emergence of Auto Union and Mercedes, the Alfa Romeo's were no longer the fastest machinery around, still, numerous wins were achieved during this time.In 1939, Scuderia Ferrari split from Alfa Romeo and started to produce his own cars prior to the start of the war.In 1947, Ferrari produced the Tipo 125 with a 1.5 Litre engine, this was the first racing car to bare the Ferrari name and was ran under the Scuderia Ferrari banner, as well as being sold to privateers like Peter Whitehead.Ferrari recruited Luigi Villoresi as a driver and mentor to partner son of his former teammate Alberto Ascari.The drivers achieved limited success prior to the start of the 1950 World Championship season.</p>
+    </article>
+
+</div>
+<footer>Copyright 2022 &copy; Ferrari</footer>
+</body>
+</html>
